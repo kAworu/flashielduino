@@ -11,4 +11,4 @@ that the shield doesn't rely on the sketch providing a clock. Note that
 provide a 8Mhz clock on pin 9.
 
 ![Breadboard](shield_bb.png)
-![Schematic](shield_schem.svg)
+![Schematic](shield_schem.png)
