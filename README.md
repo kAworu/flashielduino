@@ -3,7 +3,9 @@
 Arduino shield to flash atmega328(p) AVR microcontroller
 
 inspired by [Adafruit ArduinoISP tutorial](https://learn.adafruit.com/arduino-tips-tricks-and-techniques/arduino-uno-faq?view=all#arduinoisp),
-but actually using a pull-up 1kΩ resistor and 16Mhz resonator.
+but actually using a pull-up 1kΩ resistor and 16Mhz resonator. Placement of the
+atmega microcontroller is that way because I am using a
+[28-pin ZIF Socket](https://www.sparkfun.com/products/9175).
 
 I've had better results with the pull-up res, and the resonator is handy so
 that the shield doesn't rely on the sketch providing a clock. Note that
